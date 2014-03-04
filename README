@@ -1,0 +1,21 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4883
+
+simple REPL inside vim
+
+demo coffeescript:
+
+https://github.com/zweifisch/pipe2eval/raw/master/demos/coffee.gif
+
+demo mysql:
+
+https://github.com/zweifisch/pipe2eval/raw/master/demos/mysql.gif
+
+usage
+
+press V<space> to evaluate current line, vip<space> to evaluate a paragraph
+
+to specify a diffrent filetype use the Pipe2 command :Pipe2 redis, :Pipe2 mongo ...
+
+evaluate an empty line will clear the context
+
+more info: https://github.com/zweifisch/pipe2eval
